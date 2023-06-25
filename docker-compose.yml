@@ -1,9 +1,9 @@
 version: '3'
 services:
-  laravel:
+  setnemo:
     image: ghcr.io/setnemo/php:latest
     environment:
-      WEBROOT: '/var/www/html/public'
+      WEBROOT: '/var/www/html'
       PHP_REDIS_SESSION_HOST: 'redis'
       CREATE_LARAVEL_STORAGE: '1'
       PHP_ERRORS_STDERR: '1'
