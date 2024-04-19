@@ -1,3 +1,4 @@
 .env
 .env.backup
 /app/storage/
+.idea
